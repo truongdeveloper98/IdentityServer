@@ -659,19 +659,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\window\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project NetCore\\InspectionProject\\ApiTest\\ApiTest.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\Identity\\ApiTest\\ApiTest.csproj",
       "projectName": "ApiTest",
-      "projectPath": "C:\\Project NetCore\\InspectionProject\\ApiTest\\ApiTest.csproj",
-      "packagesPath": "C:\\Users\\window\\.nuget\\packages\\",
-      "outputPath": "C:\\Project NetCore\\InspectionProject\\ApiTest\\obj\\",
+      "projectPath": "C:\\Users\\ADMIN\\Desktop\\Identity\\ApiTest\\ApiTest.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADMIN\\Desktop\\Identity\\ApiTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\window\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -732,7 +732,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

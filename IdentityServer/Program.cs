@@ -33,6 +33,7 @@ builder.Services.ConfigureApplicationCookie(config =>
 });
 
 builder.Services.AddIdentityServer()
+    .AddAspNetIdentity<IdentityUser>()
     .AddInMemoryApiScopes(Configuration.ApiScopes)
     .AddInMemoryClients(Configuration.Clients)
     .AddInMemoryIdentityResources(Configuration.GetIdentityResources())
@@ -54,7 +55,7 @@ using (var scope = app.Services.CreateScope())
         new Claim("rc.api.garndma", "big.api.cookie"))
         .GetAwaiter().GetResult();
 }
-
+app.UseStaticFiles();
 app.UseIdentityServer();
 app.MapDefaultControllerRoute();    
 app.Run();

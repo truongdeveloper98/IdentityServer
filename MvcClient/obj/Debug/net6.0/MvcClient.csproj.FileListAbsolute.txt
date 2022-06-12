@@ -1,32 +1,31 @@
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\appsettings.Development.json
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\appsettings.json
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\MvcClient.staticwebassets.runtime.json
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\MvcClient.exe
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\MvcClient.deps.json
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\MvcClient.runtimeconfig.json
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\MvcClient.dll
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\MvcClient.pdb
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Project NetCore\InspectionProject\MvcClient\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.csproj.AssemblyReference.cache
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.GeneratedMSBuildEditorConfig.editorconfig
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.AssemblyInfoInputs.cache
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.AssemblyInfo.cs
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.csproj.CoreCompileInputs.cache
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.MvcApplicationPartsAssemblyInfo.cache
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.RazorAssemblyInfo.cache
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.RazorAssemblyInfo.cs
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\staticwebassets.build.json
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\staticwebassets.development.json
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\scopedcss\bundle\MvcClient.styles.css
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.csproj.CopyComplete
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.dll
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\refint\MvcClient.dll
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.pdb
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\MvcClient.genruntimeconfig.cache
-C:\Project NetCore\InspectionProject\MvcClient\obj\Debug\net6.0\ref\MvcClient.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\appsettings.json
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\MvcClient.exe
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\MvcClient.deps.json
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\MvcClient.runtimeconfig.json
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\MvcClient.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\MvcClient.pdb
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.RazorAssemblyInfo.cache
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.RazorAssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\scopedcss\bundle\MvcClient.styles.css
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.csproj.CopyComplete
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\refint\MvcClient.dll
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.pdb
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\MvcClient.genruntimeconfig.cache
+C:\Users\ADMIN\Desktop\Identity\MvcClient\obj\Debug\net6.0\ref\MvcClient.dll

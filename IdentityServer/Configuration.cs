@@ -52,8 +52,8 @@ namespace IdentityServer
                     AllowedGrantTypes = GrantTypes.Code,
                     RequirePkce = true,
 
-                    RedirectUris = { "https://localhost:7138/signin-oidc" },
-                    PostLogoutRedirectUris = { "https://localhost:7138/Home/Index" },
+                    RedirectUris = { "https://localhost:7139/signin-oidc" },
+                    PostLogoutRedirectUris = { "https://localhost:7139/Home/Index" },
 
                     AllowedScopes = {
                         "ApiOne",

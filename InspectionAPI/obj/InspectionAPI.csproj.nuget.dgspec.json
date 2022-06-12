@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project NetCore\\InspectionProject\\InspectionAPI\\InspectionAPI.csproj": {}
+    "C:\\Users\\ADMIN\\Desktop\\IdentityServer\\InspectionAPI\\InspectionAPI.csproj": {}
   },
   "projects": {
-    "C:\\Project NetCore\\InspectionProject\\InspectionAPI\\InspectionAPI.csproj": {
+    "C:\\Users\\ADMIN\\Desktop\\IdentityServer\\InspectionAPI\\InspectionAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project NetCore\\InspectionProject\\InspectionAPI\\InspectionAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Desktop\\IdentityServer\\InspectionAPI\\InspectionAPI.csproj",
         "projectName": "InspectionAPI",
-        "projectPath": "C:\\Project NetCore\\InspectionProject\\InspectionAPI\\InspectionAPI.csproj",
-        "packagesPath": "C:\\Users\\window\\.nuget\\packages\\",
-        "outputPath": "C:\\Project NetCore\\InspectionProject\\InspectionAPI\\obj\\",
+        "projectPath": "C:\\Users\\ADMIN\\Desktop\\IdentityServer\\InspectionAPI\\InspectionAPI.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADMIN\\Desktop\\IdentityServer\\InspectionAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\window\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

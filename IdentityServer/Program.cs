@@ -4,9 +4,11 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using System.Security.Claims;
+using System.Security.Cryptography.X509Certificates;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<AppDbContext>(config =>
 {
@@ -32,7 +34,26 @@ builder.Services.ConfigureApplicationCookie(config =>
     config.LogoutPath = "/Auth/Logout";
 });
 
+var assembly = typeof(Program).Assembly.GetName().Name;
+
+//var filePath = Path.Combine(_env.ContentRootPath, "is_cert.pfx");
+//var certificate = new X509Certificate2(filePath, "password");
+
+//builder.Services.AddIdentityServer()
+//    .AddAspNetIdentity<IdentityUser>()
+//                //.AddConfigurationStore(options =>
+//                //{
+//                //    options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
+//                //        sql => sql.MigrationsAssembly(assembly));
+//                //})
+//                //.AddOperationalStore(options =>
+//                //{
+//                //    options.ConfigureDbContext = b => b.UseSqlServer(connectionString,
+//                //        sql => sql.MigrationsAssembly(assembly));
+//                //})
+//                //.AddDeveloperSigningCredential();
 builder.Services.AddIdentityServer()
+    .AddAspNetIdentity<IdentityUser>()
     .AddInMemoryApiScopes(Configuration.ApiScopes)
     .AddInMemoryClients(Configuration.Clients)
     .AddInMemoryIdentityResources(Configuration.GetIdentityResources())

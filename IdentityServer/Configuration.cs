@@ -10,20 +10,21 @@ namespace IdentityServer
             {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
-                //new IdentityResource
-                //{
-                //    Name = "rc.scope",
-                //    UserClaims =
-                //    {
-                //        "rc.garndma"
-                //    }
-                //}
+                new IdentityResource
+                {
+                    Name = "rc.scope",
+                    UserClaims =
+                    {
+                        "rc.garndma"
+                    }
+                }
             };
         public static IEnumerable<ApiScope> ApiScopes =>
            new List<ApiScope>
            {
                 new ApiScope("ApiOne", "ApiOne"),
-                new ApiScope("ApiTwo", "ApiTwo")
+                new ApiScope("ApiTwo","ApiTwo", new string[] { "rc.api.garndma" }),
+
            };
 
         public static IEnumerable<Client> Clients =>
@@ -52,15 +53,15 @@ namespace IdentityServer
                     AllowedGrantTypes = GrantTypes.Code,
                     RequirePkce = true,
 
-                    RedirectUris = { "https://localhost:7138/signin-oidc" },
-                    PostLogoutRedirectUris = { "https://localhost:7138/Home/Index" },
+                    RedirectUris = { "https://localhost:7137/signin-oidc" },
+                    PostLogoutRedirectUris = { "https://localhost:7137/Home/Index" },
 
                     AllowedScopes = {
                         "ApiOne",
                         "ApiTwo",
                         IdentityServerConstants.StandardScopes.OpenId,
                         IdentityServerConstants.StandardScopes.Profile,
-                        //"rc.scope",
+                        "rc.scope",
                     },
 
                     // puts all the claims in the id token

@@ -8,17 +8,21 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IdentityServer
 build_property.RootNamespace = IdentityServer
-build_property.ProjectDir = C:\Project NetCore\InspectionProject\IdentityServer\
+build_property.ProjectDir = C:\Users\ADMIN\Desktop\IdentityServer\IdentityServer\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Project NetCore\InspectionProject\IdentityServer
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Desktop\IdentityServer\IdentityServer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Project NetCore/InspectionProject/IdentityServer/Views/Auth/Login.cshtml]
+[C:/Users/ADMIN/Desktop/IdentityServer/IdentityServer/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project NetCore/InspectionProject/IdentityServer/Views/_ViewImports.cshtml]
+[C:/Users/ADMIN/Desktop/IdentityServer/IdentityServer/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Desktop/IdentityServer/IdentityServer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

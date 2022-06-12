@@ -1,11 +1,11 @@
+using Microsoft.AspNetCore.Authentication;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddAuthentication(
-    config =>
-    {
-        config.DefaultScheme = "Cookie";
-        config.DefaultChallengeScheme = "oidc";
-    })
+builder.Services.AddAuthentication(config => {
+    config.DefaultScheme = "Cookie";
+    config.DefaultChallengeScheme = "oidc";
+})
     .AddCookie("Cookie")
     .AddOpenIdConnect("oidc", config =>
     {
@@ -15,29 +15,32 @@ builder.Services.AddAuthentication(
         config.SaveTokens = true;
         config.ResponseType = "code";
         config.SignedOutCallbackPath = "/Home/Index";
-    });
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 
+
+        // configure cookie claim mapping
+        config.ClaimActions.DeleteClaim("amr");
+        config.ClaimActions.DeleteClaim("s_hash");
+        config.ClaimActions.MapUniqueJsonKey("RawCoding.Grandma", "rc.garndma");
+
+        // two trips to load claims in to the cookie
+        // but the id token is smaller !
+        config.GetClaimsFromUserInfoEndpoint = true;
+
+        // configure scope
+        config.Scope.Clear();
+        config.Scope.Add("openid");
+        config.Scope.Add("rc.scope");
+        config.Scope.Add("ApiOne");
+        config.Scope.Add("ApiTwo");
+        config.Scope.Add("offline_access");
+    });
+builder.Services.AddHttpClient();
+builder.Services.AddControllersWithViews(); 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
+app.UseAuthentication();    
 app.UseAuthorization(); 
 
-app.UseAuthorization();
-
-app.MapDefaultControllerRoute();
+app.MapDefaultControllerRoute();    
 
 app.Run();

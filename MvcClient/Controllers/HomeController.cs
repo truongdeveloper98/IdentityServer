@@ -1,11 +1,10 @@
 ﻿using IdentityModel.Client;
+using InspectionAPI.Data.ViewModel;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
 
 namespace MvcClient.Controllers
 {
@@ -36,10 +35,13 @@ namespace MvcClient.Controllers
 
             var result = await GetSecret(accessToken);
 
+            var model = JsonConvert.DeserializeObject<List<StatusViewModel>>(result);
+
             await RefreshAccessToken();
 
+            ViewBag.Status = model;
 
-            return View();
+            return View(model);
         }
 
         public async Task<string> GetSecret(string accessToken)

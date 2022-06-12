@@ -30,3 +30,4 @@ C:\Users\ADMIN\Desktop\IdentityServer\MvcClient\obj\Debug\net6.0\MvcClient.pdb
 C:\Users\ADMIN\Desktop\IdentityServer\MvcClient\obj\Debug\net6.0\MvcClient.genruntimeconfig.cache
 C:\Users\ADMIN\Desktop\IdentityServer\MvcClient\obj\Debug\net6.0\ref\MvcClient.dll
 C:\Users\ADMIN\Desktop\IdentityServer\MvcClient\bin\Debug\net6.0\IdentityModel.dll
+C:\Users\ADMIN\Desktop\IdentityServer\MvcClient\bin\Debug\net6.0\Newtonsoft.Json.dll
